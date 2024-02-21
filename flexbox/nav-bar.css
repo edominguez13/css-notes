@@ -2,7 +2,8 @@
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
-    flex-direction: column;
+    /* flex-direction: column; */
+    justify-content: start;
 
     /* The code below remove the <ul> default styles */
     margin: 0;
@@ -11,9 +12,13 @@
 }
 
 .nav-list li {
-    flex: 1;
+    /* flex: 1; */
 }
 
+/* media query:
+The @media rule, introduced in CSS2, made it possible to define different style rules for different media types.
+
+this example sets the flex-direction to row while the screen width stays over 600px*/
 @media (min-width: 600px) {
     .nav-list {
         flex-direction: row;

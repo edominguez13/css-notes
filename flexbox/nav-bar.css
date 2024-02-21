@@ -1,0 +1,30 @@
+.nav-list {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    /* The code below remove the <ul> default styles */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-list li {
+    flex: 1;
+}
+
+@media (min-width: 600px) {
+    .nav-list {
+        flex-direction: row;
+    }
+}
+
+
+
+ul {
+    border: 5px solid rgb(103, 219, 248);
+}
+li {
+    border: 5px solid rgb(126, 219, 146);
+}

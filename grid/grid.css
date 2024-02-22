@@ -1,0 +1,36 @@
+
+
+/* Footer */
+.footer-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-areas:
+    'logo f-nav f-nav contact-info contact-info' ;
+    grid-auto-columns: 1fr;
+
+    margin: 0;
+    padding: 0;
+}
+
+.footer-logo {
+    grid-area: logo;
+    background: blue;
+}
+
+.footer-logo > img {
+    max-width: 50%;
+    height: auto;
+}
+
+.footer-nav {
+    grid-area: f-nav;
+    background: blue;
+}
+.contact-info {
+    grid-area: contact-info;
+    background: green;
+}
+
+
+
+
